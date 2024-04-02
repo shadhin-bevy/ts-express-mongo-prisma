@@ -54,6 +54,7 @@ async function main() {
 
 	console.dir(allUsers, { depth: null });
 }
+
 main()
 	.catch(async (err) => {
 		console.error(err);
